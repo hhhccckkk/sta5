@@ -1,0 +1,22 @@
+﻿/* Hall */
+
+.hall_li {
+    position:relative;
+    border-bottom:1px solid #ffffff;
+    clear:both;
+}
+
+.notice_li {
+    position:relative;
+}
+
+.notice_li img{
+    max-width:150px;
+    margin-left:5px;
+    float:left;
+}
+
+.notice_li h3 {
+    margin:8px 0 8px 15px;
+    float:left;
+}

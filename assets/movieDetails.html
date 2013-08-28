@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>CT01</title>
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" href="style/Globle.css"/>
+<link href="style/Vip.css" rel="stylesheet" />
+
+<script src="library/jquery-1.9.0.min.js" type="text/javascript"></script>
+<script src="js/Control.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var passMovieData = JSON.parse(localStorage.getItem("passMovieData"));
+        $("#keepUrl").attr("href", passMovieData.movieUrl);
+        $("#play_movie_content").html(passMovieData.movieInfo);
+    });
+</script>
+
+</head>
+<body>
+
+<div id="play_movie_page">
+    <a href="" type="hidden" id="keepUrl"></a>
+    <div class="content_padding">
+        <div class="play_video_wrapper" id="play_video_wrapper">
+            <img src='img/movie_play.jpg' id='play_img' width='300' height='200' onclick='window.actAndroid.moviePlay()'/>
+        </div>
+        <p id="play_movie_content"></p>
+    </div>
+</div>
+
+</body>
+</html>

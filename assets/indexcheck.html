@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>CT01</title>
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" href="style/Globle.css"/>
+<link href="style/Hall.css" rel="stylesheet" />
+
+<script src="library/jquery-1.9.0.min.js" type="text/javascript"></script>
+<script src="js/Control.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var passCheckData = JSON.parse(localStorage.getItem("passCheckData"));
+        $("#getTrainNo").html(passCheckData.trainId);
+        $("#getStartStation").html(passCheckData.startStation);
+        $("#getEndStation").html(passCheckData.endStation);
+        $("#getStartTime").html(passCheckData.realStartTime);
+        $("#getEndTime").html(passCheckData.arriveDate);
+    });
+</script>
+</head>
+<body>
+
+
+<div id="ticket_info">
+    <div class="content_padding">
+		<div class="info_main">
+            <div class="info_main_train" >车次：</div>
+            <div class="info_main_train_no" id="getTrainNo">K788</div>
+            <div class="floatright">
+                <div class="info_main_left_no">余票</div>
+                <div class="info_main_left_yu">未开放</div>
+            </div>
+            <div class="clear"></div>
+		</div>
+        <div class="info_start">
+            <div class="floatleft">
+                <div class="info_start_position font_black" id="getStartStation">成都北</div>
+                <div class="font_gray">成都北站第五候车厅</div>
+                <div class="font_gray">8号站台上车</div>
+            </div>
+            <div class="info_start_right">
+                <div class="circle bg_black"></div>
+                <div class="floatright">
+                    <!--<div class="hall_start_date">11/4</div>-->
+                    <div class="hall_start_time" id="getStartTime">00:30</div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="info_process">
+            <div class="floatleft">
+                <div class="info_process_position" id="getEndStation">绵阳站</div>
+                <div class="font_gray">成都北站第五候车厅</div>
+                <div class="font_gray">8号站台上车</div>
+            </div>
+            <div class="info_start_right">
+                <div class="circle bg_gray"></div>
+                <div class="floatright">
+                    <!--<div class="hall_process_date">11/4</div>-->
+                    <div class="hall_process_time" id="getEndTime">00:30</div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="line_gray"></div>
+<!--            <div class="info_process">
+            <div class="floatleft">
+                <div class="info_process_position">广安站</div>
+                <div class="font_gray">成都北站第五候车厅</div>
+                <div class="font_gray">8号站台上车</div>
+            </div>
+            <div class="info_start_right">
+                <div class="circle bg_gray"></div>
+                <div class="floatright">
+                    <div class="hall_process_date">11/4</div>
+                    <div class="hall_process_time">00:30</div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="line_gray"></div>
+        <div class="info_process">
+            <div class="floatleft">
+                <div class="info_process_position">略阳站</div>
+                <div class="font_gray">成都北站第五候车厅</div>
+                <div class="font_gray">8号站台上车</div>
+            </div>
+            <div class="info_start_right">
+                <div class="circle bg_gray"></div>
+                <div class="floatright">
+                    <div class="hall_process_date">11/4</div>
+                    <div class="hall_process_time">00:30</div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>-->
+<!--            <div class="line_gray"></div>
+        <a class="btn_red_big">预订</a>-->
+        <div class="clear"></div>
+	</div>
+</div>
+
+</body>
+</html>

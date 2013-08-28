@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+      <item type="id" name="logo_image_id"></item>
+      
+    <item type="id" name="home_id"></item>
+     <item  type="id"  name="surplus_id"></item>
+      <item  type="id"  name="vip_id"></item>
+       <item  type="id" name="trave_id"></item>
+        <item  type="id"  name="more_id"></item>
+          <item  type="id"  name="RadioG"></item>
+           <item  type="id"  name="bg_id"></item>
+            <item  type="id"  name="back"></item>
+             <item  type="id"  name="title_id"></item>
+          
+       <item  type="id"  name="web_home_id"></item>
+       <item  type="id"  name="web_surplus_id"></item>
+       <item  type="id"  name="web_vip_id"></item>
+       <item  type="id"  name="web_trave_id"></item>
+       <item  type="id"  name="web_more_id"></item>
+         <item  type="id"  name="web_new_id"></item>
+           <item  type="id"  name="web_video_id"></item>
+           <item type="id" name="notice_id"></item>
+            <item type="id" name="show_one_new_id"></item>
+              <item type="id" name="web_show_onenew"></item>
+               <item  type="id"  name="web_show_onemovie_id"></item>
+               <item  type="id"  name="web_show_more_id"></item>
+                 <item  type="id"  name="web_more_one__id"></item>
+       
+        <item  type="id"  name="imv_camera_picter_id"></item>
+        <item  type="id"  name="rl_camera_buttom_id"></item>
+         <item  type="id"  name="rephotograph_id"></item>
+          <item  type="id"  name="use_picter_id"></item>
+          <item  type="id"  name="preview_picter_id"></item>
+          <item  type="id"  name="movie_name_id"></item>
+            <item  type="id"  name="more_name_id"></item>
+         
+          
+          <item  type="id"  name="loading_id"></item>
+        
+</resources>

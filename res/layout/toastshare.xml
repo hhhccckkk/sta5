@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lin1"
+    android:layout_width="270dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_gravity="center"
+      android:background="@drawable/toast_share_fl"
+    android:orientation="vertical" >
+  
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_margin="2dp">
+
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="有奖分享"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            />
+       <Button 
+           android:layout_height="35dp"
+           android:layout_width="35dp"
+           android:id="@+id/close_bt1"
+           android:background="@drawable/close_bt"
+           android:layout_gravity="right|top"
+           android:layout_marginRight="2dp"
+           />
+  </FrameLayout>
+  <LinearLayout 
+      android:layout_height="fill_parent"
+      android:layout_width="fill_parent"
+      android:orientation="vertical"
+       android:layout_margin="2dp"
+      >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="照片分享照片分享照片分享照片分享照片分享照片分分享照片分享照片分享照片分享"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="16sp" />
+      <Button 
+           android:layout_height="45dp"
+           android:layout_width="fill_parent"
+           android:background="@drawable/shore_bt1_shape"
+           android:layout_gravity="bottom|center_horizontal"
+           android:layout_margin="10dp"
+           android:text="立即拍照"
+           android:textSize="25sp"
+           android:textColor="@color/whilt"
+           android:id="@+id/share_bt1"
+           />
+</LinearLayout> 
+</LinearLayout>

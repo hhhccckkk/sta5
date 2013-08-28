@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="250dp"
+    android:layout_height="100dp"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:background="@drawable/toast_shap"
+    >
+     
+    <TextView
+        android:id="@+id/toast_text"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="@color/whilt"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">火车门户</string>
+    <string name="menu_settings">Settings</string>
+    <string name="rephotograph">重新拍攝</string>
+    <string name="preview">预览</string>
+    <string name="user_picter">使用</string>
+    <string name="loading">loading......</string>
+    <string name="loadError">数据加载失败，请检查网络</string>
+    <string name="no_meadiplay_error">您尚未安裝任何视频播放器，无法播放视频</string>
+    <string name="sure_exit">确定</string>
+    <string name="no_exit">否</string>
+    <string name="exit_title">确定退出吗?</string>
+    <string name="connection_error">网络异常</string>
+    <string name="leave">出 发</string>
+    <string name="home">大 厅</string>
+    <string name="surplu">余票信息</string>
+    <string name="vip">VIP服务</string>
+    <string name="trave">出行</string>
+    <string name="more">更多内容</string>
+    <string name="notice">公 告</string>
+    <string name="video">视频短片</string>
+    <string name="back">   返 回   </string>
+    <string name="title"> 详细信息</string>
+    <string name="surp_title">余 票</string>
+     <string name="news">新闻动态</string>
+     <string name="jok">搞笑搞怪</string>
+     <string name="music">音乐试听</string>
+     <string name="video">视频短片</string>
+     <string name="movie">电影电视</string>
+     <string name="book">高清杂志</string>
+     <string name="wifi">免费wifi</string>
+     <string name="share">拍照分享</string>
+      <string name="ti_shi">亲 正 在 建 设 中......</string>
+        <string name="hidden_text">网络异常，无法获取数据，请稍候重试</string>
+      <string name="send">发布</string>
+       <string name="share_text_hint">请输入你想说的话</string>
+             
+       
+      
+</resources>

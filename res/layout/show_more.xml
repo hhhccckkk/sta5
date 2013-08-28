@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+     android:background="@color/whilt"
+      android:configChanges="orientation|keyboardHidden"
+    >
+     <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:background="@color/black"
+        >
+     <FrameLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+         android:background="@drawable/title_shap"
+        >
+         <Button 
+           android:id="@id/back"
+         android:layout_height="30dp"
+           android:layout_width="48dp" 
+          android:layout_marginLeft="7.5dp"
+          android:textSize="12sp"
+           android:background="@drawable/tabbar_icon_0"
+          android:textColor="@color/whilt"
+          android:layout_gravity="center_vertical"
+          android:text="@string/back"
+           />
+       <TextView 
+          android:id="@id/more_name_id"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           style="@style/title_bar"
+           android:layout_gravity="center"
+           /> 
+    </FrameLayout>
+    </LinearLayout>
+    <FrameLayout 
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        >
+    <WebView 
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:id="@id/web_show_more_id"
+         style="@style/webview_bar_style"
+        />
+    <include layout="@layout/progress_bar" android:id="@+id/pg"/>
+</FrameLayout>
+    
+</LinearLayout>

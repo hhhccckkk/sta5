@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:orientation="horizontal"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+ <TabWidget 
+ android:id="@android:id/tabs"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:visibility="gone"
+ ></TabWidget>
+ <RelativeLayout 
+   android:layout_width="fill_parent"
+ android:layout_height="fill_parent" 
+   >
+ <FrameLayout 
+ android:id="@android:id/tabcontent"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:layout_above="@+id/rl1"
+ ></FrameLayout>
+ <FrameLayout 
+android:layout_height="wrap_content"
+android:layout_width="fill_parent"
+android:id="@+id/rl1"
+android:orientation="horizontal"
+android:layout_alignParentBottom="true"
+>
+<ImageView 
+ android:id="@id/bg_id"
+android:layout_width="fill_parent"
+android:layout_gravity="bottom"
+android:src="@drawable/ic_menu_bkpic"
+android:layout_height="wrap_content"/>
+</FrameLayout>
+  <RadioGroup
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+ android:layout_alignParentBottom="true"
+  android:orientation="horizontal"
+  android:id="@id/RadioG"
+  android:gravity="bottom"
+  >
+  <RadioButton 
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  style="@style/main_radio_botton"
+  android:background="@drawable/home_selector"
+ android:layout_weight="1"
+ android:id="@id/home_id"
+ android:checked="true"
+  />
+  <RadioButton 
+  android:id="@id/surplus_id"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  style="@style/main_radio_botton"
+ android:layout_weight="1"
+    android:background="@drawable/surplus_selector"
+  />
+  <RadioButton
+      android:id="@id/vip_id"
+      style="@style/main_radio_botton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/vip_selector" 
+      android:layout_weight="0.8"
+      />
+  <RadioButton 
+  android:id="@id/trave_id"
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+  style="@style/main_radio_botton"
+  android:background="@drawable/trave_selector"
+  android:layout_weight="1"
+ />
+  <RadioButton 
+  android:id="@id/more_id"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  style="@style/main_radio_botton"
+  android:background="@drawable/more_selector"
+  android:layout_weight="1"
+  />
+  </RadioGroup>
+  </RelativeLayout>
+</TabHost>

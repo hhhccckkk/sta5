@@ -1,0 +1,70 @@
+﻿/* Hall */
+
+.input_wrapper {
+    padding:0.1em 4em;
+}
+
+/*Check*/
+
+.info_main_train {
+    font-size:28px;
+    float:left;
+    color:#333333;
+}
+
+.info_main_train_no {
+    font-size:28px;
+    font-weight:bold;
+    float:left;
+    color:#333333;
+}
+
+.info_main_left_yu {
+    color:#565656;
+    float:left;
+    margin:11px 3px 0 5px;
+}
+
+.info_main_left_no {
+    color:#ed5c5f;
+    font-weight:bold;
+    font-size:28px;
+    float:left;
+}
+
+.info_start {
+    clear:both;
+    border-top:5px dotted #888888;
+    border-bottom:5px dotted #888888;
+    margin:8px 0 8px 0;
+    padding:5px 0 10px 0;
+}
+
+.info_start_position {
+    font-size:32px;
+}
+
+.info_start_right {
+    float:right;
+    margin:2px 0 0 0;
+}
+
+.hall_start_date,.hall_start_time {
+    color:#d94446;
+    font-size:20px;
+}
+
+.info_process {
+    margin:5px 0 10px 0;
+}
+
+.info_process_position {
+    font-size:32px;
+    color:#999999;
+}
+
+.hall_process_date,.hall_process_time {
+    color:#999999;
+    font-size:20px;
+}
+
